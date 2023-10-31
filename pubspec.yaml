@@ -41,7 +41,7 @@ dev_dependencies:
 
   module_repository:
     git:
-      url: git@github.com:KeniaVcz/moduleRepository.git
+      url: git@github.com:Millicom-MFS/lending-b2b-frontend.git
       ref: master
 
   # The "flutter_lints" package below contains a set of recommended lints to
