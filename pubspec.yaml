@@ -39,7 +39,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  module_repository:
+  lending_b2b_frontend:
     git:
       url: git@github.com:Millicom-MFS/lending-b2b-frontend.git
       ref: master

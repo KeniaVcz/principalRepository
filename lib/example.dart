@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:module_repository/global/presentation/screens/my_home_page.dart';
-import 'package:module_repository/global/calculator.dart';
+import 'package:lending_b2b_frontend/global/presentation/screens/my_home_page.dart';
+import 'package:lending_b2b_frontend/global/calculator.dart';
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
 
