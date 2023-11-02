@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 // import 'package:principalRepository/example.dart';
 import 'package:lending_b2b_frontend/global/presentation/screens/my_home_page.dart';
+import 'package:device_preview/device_preview.dart';
+
 void main() {
-  runApp(const MyApp());
+  runApp(
+    DevicePreview(builder: (_) => const MyApp()),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -16,8 +20,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
+      builder: DevicePreview.appBuilder,
+      locale: DevicePreview.locale(context),
       home: const MyHomePage(title: 'Hola grayola rosa'),
     );
   }
 }
-
