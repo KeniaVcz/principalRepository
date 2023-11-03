@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-// import 'package:principalRepository/example.dart';
-import 'package:lending_b2b_frontend/global/presentation/screens/my_home_page.dart';
+import 'package:lending_b2b_frontend/global/presentation/screens/screens.dart';
 import 'package:device_preview/device_preview.dart';
-
 void main() {
   runApp(
     DevicePreview(builder: (_) => const MyApp()),
@@ -12,7 +10,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       builder: DevicePreview.appBuilder,
       locale: DevicePreview.locale(context),
-      home: const MyHomePage(title: 'Hola grayola rosa'),
+      home: const FormOnboardingScreen(title: 'Hola grayola rosa'),
     );
   }
 }
