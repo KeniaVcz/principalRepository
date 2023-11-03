@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // import 'package:principalRepository/example.dart';
-import 'package:lending_b2b_frontend/global/presentation/screens/my_home_page.dart';
+import 'package:lending_b2b_frontend/global/presentation/screens/screens.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Hola grayola rosa'),
+      // home: const MyHomePage(title: 'Hola grayola rosa'),
+      home: const FormOnboardingScreen(title: "Hey")
     );
   }
 }
